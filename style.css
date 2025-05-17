@@ -6,7 +6,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  /* background-color: #f0f0f0; */
+  background-color: #f0f0f0;
 }
 
 .container {
@@ -17,8 +17,6 @@ body {
 }
 h1 {
   background-color: #333;
-  background-image: url(vecteezy_rock-paper-scissors-cartoon-banner-with-hands_14320397.jpg);
-  background-size: cover;
   color: #fff;
   font-size: 2rem;
   font-weight: 600;
@@ -47,4 +45,59 @@ h1 {
 
 .choice:hover {
   transform: scale(1.1);
+}
+
+#result {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-top: 50px;
+}
+
+#score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-top: 50px;
+}
+#user-score {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#computer-score {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.msgcontainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.msgcontainer button {
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.msg button:hover {
+  background: #fff;
+  color: #333;
+  border: 2px solid #333;
 }
